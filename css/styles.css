@@ -1,0 +1,53 @@
+.intro {
+    margin-top: 56px;
+    min-height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    background-image: url(../images/woman_hands_with_camera_working_on_laptop_at_table_2021_08_26_22_49_05_utc_copy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: rgba(0, 0, 0, .65);
+    background-blend-mode: darken;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 70px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-brand {
+    color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .75);
+}
+
+.navbar-dark .navbar-brand:focus,
+.navbar-dark .navbar-brand:hover {
+    color: black;
+}
+
+.navbar-dark .navbar-toggler {
+    color: black;
+    border-color: none;
+}
+
+.hamburger-line {
+    background-color: black;
+    width: 30px;
+    height: 3px;
+    margin: 5px;
+}
+
+.section-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+}
